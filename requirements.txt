@@ -3,3 +3,4 @@ mysql-connector
 flask_mysqldb
 mysqlclient
 pyyaml==3.13b1
+werkzeug>=3.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
